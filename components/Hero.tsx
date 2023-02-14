@@ -1,5 +1,6 @@
 import React from 'react'
 import BlockBg from './BlockBg'
+import ThreeBoxes from './ThreeBoxes'
 
 type Props = {}
 
@@ -15,12 +16,7 @@ const Hero = () => {
         '>
             Web 3 Partners Netherlands
         </div>
-        <div className='
-        text-white font-light tracking-widest mt-8
-        md:text-3xl 
-        '>
-            Bringing the Web 3.0 <br/> to the Netherlands
-        </div>
+        <ThreeBoxes/>
         <BlockBg width="25%" height="100%" position_top={0} position_right={0} z_index={3}/>
     </div>
   )

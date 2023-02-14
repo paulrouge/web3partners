@@ -44,10 +44,12 @@ const NextMeetUp = () => {
   return (
     <div className='w-full mt-48 m-auto'>
         <div className='w-full h-auto flex flex-col font-web3 justify-center items-center'>
-            <div className='w-2/3 px-8 py-8 text-5xl font-bold'>
-                23-02-2023 | Delft | 18:00
+            <div className='
+            w-2/3 px-8 py-8 font-bold text-3xl
+            md:text-5xl '>
+                23.02.2023 - Delft - 18:00
             </div>
-            <div className='text-xl w-11/12'>
+            <div className='text-xl px-2'>
                Location: The Social Hub, right next to Delft Central Station.
             </div>
             <div className='mt-12 md:w-3/5 w-11/12'>
