@@ -15,6 +15,9 @@ module.exports = {
         web3mint: '#80FFCB',
         web3pink: '#F400E9',
       },
+      fontFamily: {
+        web3: ['Poppins', 'sans-serif'],
+      },
     },
   },
   plugins: [],
