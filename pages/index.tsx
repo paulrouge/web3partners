@@ -5,6 +5,7 @@ import MainInfo from '../components/MainInfo'
 import Footer from '../components/Footer'
 import NextMeetUp from '../components/NextMeetUp'
 import SubHero from '../components/SubHero'
+
 const IndexPage = () => (
   <Layout title="Web3 Partners">
     <Hero/>
