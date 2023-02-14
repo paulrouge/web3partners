@@ -12,15 +12,13 @@ type Props = {
 const SpeakerElement = (props: Props) => {
     return (
         <div className='mt-8 md:w-1/3 w-10/12 h-auto flex flex-col justify-center items-center'>
-            <div className='w-32 h-32 rounded-full overflow-hidden'>
-
+            <div className='w-40 h-40 rounded-full overflow-hidden flex flex-col justify-center items-center'>
                 <Image
                     src={props.image}
                     alt={props.name}
-                    width={128}
-                    height={128}
+                    width={400}
+                    height={400}  
                 />
-
             </div>
             <div className='text-xl font-bold mt-4'>
                 {props.name}
@@ -31,7 +29,7 @@ const SpeakerElement = (props: Props) => {
             <div className='font-bold'>
                 {props.subtitle}
             </div>
-            <div className='mt-2'>
+            <div className='mt-2 w-4/5'>
                 {props.topic}
             </div>
 
@@ -42,7 +40,7 @@ const SpeakerElement = (props: Props) => {
 
 const NextMeetUp = () => {
   return (
-    <div className='w-full mt-48 m-auto'>
+    <div className='w-full md:mt-48 mt-12 m-auto'>
         <div className='w-full h-auto flex flex-col font-web3 justify-center items-center'>
             <div className='
             w-2/3 px-8 py-8 font-bold text-3xl
@@ -67,7 +65,7 @@ const NextMeetUp = () => {
                 <SpeakerElement
                     name='Paul Rouge'
                     title='Co-Organiser of Web3 Partners'
-                    image='/images/paul2.png'
+                    image='/images/paul.jpg'
                     subtitle='Developer'
                     topic='Paul is a (web3) developer and co-organiser of Web3 Partners.'
                 />

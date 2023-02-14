@@ -18,6 +18,11 @@ const Hero = () => {
         </div>
         <ThreeBoxes/>
         <BlockBg width="25%" height="100%" position_top={0} position_right={0} z_index={3}/>
+        <div className='
+        absolute bottom-2 left-2 text-white font-web3 font-light text-xs md:text-sm
+        '>
+          Powered by the ICON Foundation
+        </div>
     </div>
   )
 }
