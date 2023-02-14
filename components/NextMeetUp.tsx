@@ -65,7 +65,7 @@ const NextMeetUp = () => {
                 <SpeakerElement
                     name='Paul Rouge'
                     title='Co-Organiser of Web3 Partners'
-                    image='/images/paul.jpg'
+                    image='/images/paul3.png'
                     subtitle='Developer'
                     topic='Paul is a (web3) developer and co-organiser of Web3 Partners.'
                 />

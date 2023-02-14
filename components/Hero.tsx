@@ -14,7 +14,7 @@ const Hero = () => {
         px-12 border-2 z-10 bg-web3blue py-4
         md:text-6xl md:py-8 
         '>
-            Web 3 Partners Netherlands
+          Web 3 Partners Netherlands
         </div>
         <ThreeBoxes/>
         <BlockBg width="25%" height="100%" position_top={0} position_right={0} z_index={3}/>
