@@ -10,8 +10,8 @@ const Hero = () => {
     w-full bg-web3blue py-48 flex flex-col items-center relative
     '>
         <div className='
-        text-white font-bold rounded-full px-12 border-2 z-10 bg-web3blue
-        py-4
+        text-white font-bold rounded-full text-xl
+        px-12 border-2 z-10 bg-web3blue py-4
         md:text-6xl md:py-8 
         '>
             Web 3 Partners Netherlands
