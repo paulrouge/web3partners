@@ -6,9 +6,12 @@ type Props = {
 
 const SimpleElement = (props: Props) => {
     return (
-        <div className='rounded-full text-white
-        border border-web3blue bg-web3blue z-20 text-lg px-12 py-4 mx-10
-        font-web3 text-3xl tracking-widest uppercase 
+        <div className='
+        font-web3 rounded-full text-white
+        border border-web3blue bg-web3blue z-20 
+        mx-4 px-2 tracking-widest text-sm
+        md:py-4 md:mx-10 md:text-lg md:px-12
+        md:text-3xl md:uppercase
         '>
             {props.input}
         </div>
@@ -17,7 +20,7 @@ const SimpleElement = (props: Props) => {
 
 const ThreeBoxes = () => {
   return (
-    <div className='w-11/12 m-auto h-96 relative'>
+    <div className='md:w-11/12 m-auto md:h-96 h-48 relative'>
     
         {/* Overlaying element with 3 elements in it*/}
         <div className='w-full flex absolute items-center space-between top-1/2 justify-center '>
