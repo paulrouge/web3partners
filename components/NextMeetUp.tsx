@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import EventBrite from './EventBrite'
 
 type Props = {
     name: string,
@@ -77,6 +78,8 @@ const NextMeetUp = () => {
                     topic='Justin is the community leader of several web3 communities.'
                 />
             </div>
+            <EventBrite/>
+
         </div>
     </div>
   )
