@@ -25,7 +25,7 @@ const ThreeBoxes = () => {
         {/* Overlaying element with 3 elements in it*/}
         <div className='w-full flex absolute items-center top-1/2 justify-center '>
         <div className='w-full border border-white top-1/2 absolute z-20'></div>
-            <SimpleElement input="Building"/>
+            <SimpleElement input="Learning"/>
             <SimpleElement input="Connecting"/>
             <SimpleElement input="Vibing"/>
         </div>
