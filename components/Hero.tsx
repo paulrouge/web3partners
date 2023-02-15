@@ -7,12 +7,12 @@ type Props = {}
 const Hero = () => {
   return (
     <div className='
-    w-full bg-web3blue py-48 flex flex-col items-center relative
+    w-full bg-web3blue py-48 flex flex-col items-center relative  h-screen
     '>
         <div className='
         text-white font-bold rounded-full text-xl
         px-12 border-2 z-10 bg-web3blue py-4
-        md:text-6xl md:py-8 
+        md:text-6xl md:py-8 text-center
         '>
           Web 3 Partners Netherlands
         </div>

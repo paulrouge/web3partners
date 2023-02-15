@@ -11,10 +11,10 @@ const MainInfo = () => {
         px-8 py-8 text-xl bg-web3pink
         md:w-2/3 md:rounded md:mt-20 md:shadow
         '>
-            Web3 Partners is a space for collaboration, education and support for those who are interested in developing projects and communities on web3.
+            Web3 Partners is an easy-going space for collaboration, education and support for those who are interested in projects and communities on web3.
             <br/><br/>
             On the 23rd of February we are meeting up in Delft for the first time. There will be a panel discussion and 
-            speakers after which we will have a networking session.
+            speakers after which we will have a social session.
         </div>
 
     </div>
