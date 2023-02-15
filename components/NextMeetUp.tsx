@@ -17,8 +17,8 @@ const SpeakerElement = (props: Props) => {
                 <Image
                     src={props.image}
                     alt={props.name}
-                    width={400}
-                    height={400}  
+                    width={1000}
+                    height={1000}  
                 />
             </div>
             <div className='text-xl font-bold mt-4'>
@@ -59,7 +59,7 @@ const NextMeetUp = () => {
                 <SpeakerElement
                     name='Digital Dave'
                     title='Co-Organiser of Web3 Partners'
-                    image='/images/dave.png'
+                    image='/images/david4.png'
                     subtitle='Icon Foundation'
                     topic='Dave is a web3 enthusiast and co-organiser of Web3 Partners. He is also a co-founder of the Dutch Web3 Foundation.'
                 />
@@ -73,7 +73,7 @@ const NextMeetUp = () => {
                 <SpeakerElement
                     name='Justin Haylo'
                     title='Co-Organiser of Web3 Partners'
-                    image='/images/justin.jpeg'
+                    image='/images/justin.png'
                     subtitle='Community Manager'
                     topic='Justin is the community leader of several web3 communities.'
                 />
