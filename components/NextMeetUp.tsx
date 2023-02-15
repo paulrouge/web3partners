@@ -61,7 +61,7 @@ const NextMeetUp = () => {
                     title='Co-Organiser of Web3 Partners'
                     image='/images/david4.png'
                     subtitle='Icon Foundation'
-                    topic='Dave is a web3 enthusiast and co-organiser of Web3 Partners. He is also a co-founder of the Dutch Web3 Foundation.'
+                    topic='Dave is a web3 enthusiast and co-organiser of Web3 Partners. He is working for the ICON Foundation.'
                 />
                 <SpeakerElement
                     name='Paul Rouge'
@@ -75,7 +75,7 @@ const NextMeetUp = () => {
                     title='Co-Organiser of Web3 Partners'
                     image='/images/justin.png'
                     subtitle='Community Manager'
-                    topic='Justin is the community leader of several web3 communities.'
+                    topic='Justin is the community leader of several web3 communities. He is also a co-organiser of Web3 Partners.'
                 />
             </div>
             <EventBrite/>
