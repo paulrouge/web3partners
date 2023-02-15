@@ -61,7 +61,7 @@ const NextMeetUp = () => {
                     title='Co-Organiser of Web3 Partners'
                     image='/images/david4.png'
                     subtitle='Communications at ICON'
-                    topic='David works for the ICON Foundation, is a general web3 enthousiast co-organiser of the Web3 Partners meet-up in the Netherlands.'
+                    topic='David works for the ICON Foundation, is a general web3 enthousiast and co-organiser of the Web3 Partners meet-up in the Netherlands.'
                 />
                 <SpeakerElement
                     name='Paul Rouge'
