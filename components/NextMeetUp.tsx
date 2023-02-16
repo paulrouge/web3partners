@@ -12,25 +12,26 @@ type Props = {
 
 const SpeakerElement = (props: Props) => {
     return (
-        <div className='mt-8 md:w-1/3 w-10/12 h-auto flex flex-col justify-center items-center'>
-            <div className='w-40 h-40 rounded-full overflow-hidden flex flex-col justify-center items-center'>
+        <div className='flex flex-col items-center justify-center w-10/12 h-auto mt-8 md:w-1/3'>
+            <div className='flex flex-col items-center justify-center w-40 h-40 overflow-hidden rounded-full'>
                 <Image
+                    className='scale-[115%]'
                     src={props.image}
                     alt={props.name}
                     width={1000}
                     height={1000}  
                 />
             </div>
-            <div className='text-xl font-bold mt-4'>
+            <div className='mt-4 text-xl font-bold'>
                 {props.name}
             </div>
-            <div className='text-sm my-2 text-center'>
+            <div className='my-2 text-sm text-center'>
                 {props.title}
             </div>
             <div className='font-bold text-center'>
                 {props.subtitle}
             </div>
-            <div className='mt-2 w-4/5'>
+            <div className='w-4/5 mt-2'>
                 {props.topic}
             </div>
 
@@ -41,21 +42,19 @@ const SpeakerElement = (props: Props) => {
 
 const NextMeetUp = () => {
   return (
-    <div className='w-full md:mt-48 mt-12 m-auto'>
-        <div className='w-full h-auto flex flex-col font-web3 justify-center items-center'>
-            <div className='
-            w-2/3 px-8 py-8 font-bold text-3xl
-            md:text-5xl text-center'>
+    <div className='w-full m-auto mt-12 md:mt-48'>
+        <div className='flex flex-col items-center justify-center w-full h-auto font-web3'>
+            <div className='w-2/3 px-8 py-8 text-3xl font-bold text-center md:text-5xl'>
                 23.02.2023 - Delft - 18:00
             </div>
-            <div className='text-xl px-2'>
+            <div className='px-2 text-xl'>
                Location: <a href='https://goo.gl/maps/KqXD8XuqurgERLt7A' className='inline-block underline'>The Social Hub</a>, right next to Delft Central Station.
             </div>
-            <div className='mt-12 md:w-3/5 w-11/12 text-center'>
+            <div className='w-11/12 mt-12 text-center md:w-3/5'>
                 This evening will feature a panel discussion with speakers from the web3 ecosystem. The panel discussion 
                 will circle around 'how one gets involved' in the web3 industry.
             </div>
-            <div className='mt-8 w-full flex flex-col md:flex-row justify-center items-center sm:items-start'>
+            <div className='flex flex-col items-center justify-center w-full mt-8 md:flex-row sm:items-start'>
                 <SpeakerElement
                     name='David the Digital'
                     title='Co-Organiser of Web3 Partners'
