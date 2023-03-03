@@ -8,10 +8,12 @@ import SubHero from '../components/SubHero'
 import Head from 'next/head'	
 import Navbar from '../components/Navbar'
 import PreviousMeetUps from '../components/PreviousMeetUps'
+import StructuredData from '../components/StructuredData'
 
 const IndexPage = () => (
   <>
     <Head>
+      <StructuredData/>
       <title>Web3 Partners: the Netherlands</title>
       <meta name="description" content="Web3 Partners is a community of web3 enthusiasts in the Netherlands. We organise meetups and events to connect people in the web3 ecosystem." />
       <meta name="keywords" content='web3, ethereum, blockchain, dapps, defi, nft, decentralised, decentralization, decentralised finance, non-fungible tokens, smart contracts, crypto, cryptocurrency, cryptoassets' />
