@@ -7,6 +7,7 @@ import NextMeetUp from '../components/NextMeetUp'
 import SubHero from '../components/SubHero'
 import Head from 'next/head'	
 import Navbar from '../components/Navbar'
+import PreviousMeetUps from '../components/PreviousMeetUps'
 
 const IndexPage = () => (
   <>
@@ -36,6 +37,7 @@ const IndexPage = () => (
       {/* <SubHero/> */}
       {/* <ThreeBoxes/> */}
       <MainInfo/>
+      <PreviousMeetUps/>
       <NextMeetUp />
       <Footer/>
     </Layout>

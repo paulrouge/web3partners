@@ -7,13 +7,13 @@ type Props = {}
 
 const Hero = () => {
   return (
-    <div className='relative flex flex-col items-center w-full h-screen py-48 bg-web3blue'>
+    <div className='relative flex flex-col items-center w-full h-screen py-48 bg-web3blue font-web3'>
         <div className='relative z-10 flex flex-row items-center justify-center uppercase text-left rounded-full h-[90px] sm:h-[144px] w-fit max-w-7xl font-regular text-web3blue bg-gradient-to-r from-web3mint via-white to-white'>
           <div className='w-[120px] sm:w-[144px]'>
             <Image src="/favicon/logo2.png" alt="Web3 Partners Logo" height={300} width={300}  />
           </div>
        
-          <p className='px-3 text-2xl font-thin sm:px-6 sm:text-3xl lg:text-5xl w-fit'>
+          <p className='px-3 text-2xl font-regular sm:px-6 sm:text-3xl lg:text-5xl w-fit'>
             <span>Web3 Partners:</span> <span className='whitespace-nowrap'>the Netherlands</span>
           </p>
           
