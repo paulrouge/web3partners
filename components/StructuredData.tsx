@@ -1,24 +1,16 @@
-import Head from 'next/head';
-
-export default function StructuredData() {
-  return (
-    <Head>
-      <script
-        key="structured-data"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'Organization',
-            name: 'Web3 Partners',
-            url: 'https://web3partners.nl',
-            logo: 'https://web3partners.nl/images/logo-web3.png',
-            sameAs: [
-              'https://twitter.com/web3partners',
-              'https://www.linkedin.com/company/web3-partners',
-                ],      
-            }),
-        }}   />
-    </Head>
-  )
+export default function addOrganizationData() {
+  return {
+    __html: `{
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Web3 Partners: the Netherlands",
+        "alternateName": "Web3 Partners",
+        "url": "https://www.web3partners.nl/",
+        "logo": "https://www.web3partners.nl/_next/image?url=%2Fimages%2Flogo-web3.png&w=1920&q=75",
+        "sameAs": [
+            "https://www.web3partners.nl/",
+            "https://twitter.com/Web3Partners_"
+            ]
+        }`, 
+    };
 }
