@@ -6,6 +6,7 @@ import Footer from '../components/Footer'
 import NextMeetUp from '../components/NextMeetUp'
 import SubHero from '../components/SubHero'
 import Head from 'next/head'	
+import Navbar from '../components/Navbar'
 
 const IndexPage = () => (
   <>
@@ -30,6 +31,7 @@ const IndexPage = () => (
     </Head>  
 
     <Layout title="Web3 Partners">
+      <Navbar/>
       <Hero/>
       {/* <SubHero/> */}
       {/* <ThreeBoxes/> */}
