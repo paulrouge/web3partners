@@ -44,8 +44,8 @@ const IndexPage = () => (
       {/* <SubHero/> */}
       {/* <ThreeBoxes/> */}
       <MainInfo/>
-      <PreviousMeetUps/>
       <NextMeetUp />
+      <PreviousMeetUps/>
       <Footer/>
     </Layout>
   </>
