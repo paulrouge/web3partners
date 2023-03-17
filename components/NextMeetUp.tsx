@@ -59,8 +59,20 @@ const NextMeetUp = () => {
                 This evening will feature a panel discussion with speakers from the web3 ecosystem. The panel discussion 
                 will circle around 'how one gets involved' in the web3 industry.
             </div> */}
-            <div className='flex flex-col items-center justify-center w-full mt-8 md:flex-row sm:items-start'>
+            <div className='
+            flex flex-col items-center justify-center 
+            w-full mt-8 md:flex-row sm:items-start
+            px-4
+            '>
                 
+            <SpeakerElement
+                    name='Emily Barker'
+                    title='Cum Laude graduate of the Arts, Culture, and Society Master&sbquo;s programme at the Erasmus University Rotterdam in the Netherlands.'
+                    image='/images/Emily.png'
+                    subtitle='Guest Speaker'
+                    topic='Emily graduated cum laude with her thesis, &#8221;NFT CONSUMPTION: What motivations do NFT consumers have for claiming ownership of digital media?&#8221; This examined NFT consumption from a sociological perspective and especially focused on the implications of NFTs and blockchain technology on the traditional art world. will be presenting on NFTs in Art: What motivations do NFT consumers have for claiming ownership of digital media?'
+                />
+   
                 <SpeakerElement
                     name='Justin &#8221;Haylo&#8221;'
                     title='Co-Organiser of Web3 Partners'
@@ -69,26 +81,19 @@ const NextMeetUp = () => {
                     topic='Justin will be talking about the importance of bold and creative thinking to drive innovation in the Web3 space. He will share his insights on the next steps for Web3 gaming projects and encourage attendees to reflect on how far the industry has come. Justin will also discuss the importance of revisiting existing relationships, removing barriers to entry, and enabling traditional players to benefit from decentralization. You can catch Justins presentation titled &#8221;Breaking out of Web3&#8221; at Web3 Partners.'
                 />
                 
-                <SpeakerElement
-                    name='Emily Barker'
-                    title='Cum Laude graduate of the Arts, Culture, and Society Master&sbquo;s programme at the Erasmus University Rotterdam in the Netherlands.'
-                    image='/images/Emily.png'
-                    subtitle='Guest Speaker'
-                    topic='Emily graduated cum laude with her thesis, &#8221;NFT CONSUMPTION: What motivations do NFT consumers have for claiming ownership of digital media?&#8221; This examined NFT consumption from a sociological perspective and especially focused on the implications of NFTs and blockchain technology on the traditional art world. will be presenting on NFTs in Art: What motivations do NFT consumers have for claiming ownership of digital media?'
-                />
-   
+ 
  
                 <SpeakerElement
                     name='Paul Rouge'
                     title='Co-Organiser of Web3 Partners'
                     image='/images/paul3.png'
                     subtitle='Developer'
-                    topic='Paul is a co-organizer of Web3 Partners and a self-taught developer with experience in multiple projects in the Web3 space. During the event, he will showcase a prototype product that enables front-end websites to connect to various blockchains. Attendees can look forward to gaining insights from his experience in working on Web3 projects and his vision for the future of the industry.'
+                    topic='Paul is a co-organizer of Web3 Partners and a self-taught developer with experience in multiple projects in the Web3 space. During the event, he will be giving a presentation with the goal of explaining how wallet-apps like MetaMask use encryption to keep your private key safe. He aims to demystify the "crypto" in cryptocurrencies and help attendees gain a better understanding of this aspect of the industry.'
                 />
                 
                
             </div>
-            {/* <EventBrite/> */}
+            <EventBrite/>
             <Iwanttospeak/>
         </div>
     </div>
