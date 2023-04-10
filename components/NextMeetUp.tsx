@@ -66,7 +66,7 @@ const NextMeetUp = () => {
             '>
                 <SpeakerElement
                     name='You?'
-                    title='Cum Laude graduate of the Arts, Culture, and Society Master&sbquo;s programme at the Erasmus University Rotterdam in the Netherlands.'
+                    title='Project Owner or Founder?'
                     image='/images/placeholder.jpeg'
                     subtitle='Guest Speaker'
                     topic='Present your project or pitch your idea. We are looking for speakers to present their projects and ideas. If you are interested in speaking at the next meetup, please fill out the form below.'
