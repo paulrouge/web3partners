@@ -48,7 +48,7 @@ const NextMeetUp = () => {
         <p className='w-full font-bold text-center sm:text-xl lg:text-3xl'>Next Meetup</p>
         <div className='flex flex-col items-center justify-center w-full h-auto font-web3'>
             <div className='px-8 py-8 space-y-1 text-xl font-bold text-center md:text-5xl'>
-                <p>Date yet tba</p>
+                <p>date yet tba</p>
                 <p>The Hague?</p>
                 <p>18:00</p>
             </div>
