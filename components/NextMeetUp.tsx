@@ -65,13 +65,6 @@ const NextMeetUp = () => {
             px-4
             '>
                 <SpeakerElement
-                    name='You?'
-                    title='Project Owner or Founder?'
-                    image='/images/placeholder.jpeg'
-                    subtitle='Guest Speaker'
-                    topic='Present your project or pitch your idea. We are looking for speakers to present their projects and ideas. If you are interested in speaking at the next meetup, please fill out the form below.'
-                />
-                <SpeakerElement
                     name='Justin &#8221;Haylo&#8221;'
                     title='Co-Organiser of Web3 Partners'
                     image='/images/justin.png'
@@ -84,6 +77,13 @@ const NextMeetUp = () => {
                     image='/images/paul3.png'
                     subtitle='Developer'
                     topic='Paul is a co-organizer of Web3 Partners and a self-taught developer with experience in multiple projects in the Web3 space. During the event, he will be giving a presentation with the goal of explaining how wallet-apps like MetaMask use encryption to keep your private key safe. He aims to demystify the "crypto" in cryptocurrencies and help attendees gain a better understanding of this aspect of the industry.'
+                />
+                <SpeakerElement
+                    name='You?'
+                    title='Project Owner or Founder?'
+                    image='/images/placeholder.jpeg'
+                    subtitle='Guest Speaker'
+                    topic='Present your project or pitch your idea. We are looking for speakers to present their projects and ideas. If you are interested in speaking at the next meetup, please fill out the form below.'
                 />
             </div>
             {/* <EventBrite/> */}
