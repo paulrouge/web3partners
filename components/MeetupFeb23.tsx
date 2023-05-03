@@ -42,7 +42,7 @@ const SpeakerElement = (props: Props) => {
 }
 
 
-const MeetUpFeb23 = () => {
+const MeetUp23022023 = () => {
     const [slider, setSlider] = useState(false)
 
     const handleClick = () => {
@@ -57,7 +57,7 @@ const MeetUpFeb23 = () => {
             }}
             className='flex flex-col items-center justify-between mx-auto overflow-y-scroll border border-black rounded-lg shadow-lg font-web3 scrollbar-thin scrollbar-thumb-rounded-full scrollbar-track-transparent scrollbar-thumb-slate-800/50'
             >
-                <button onClick={handleClick} className={'flex flex-row justify-center relative items-center w-full hover:bg-transparent bg-transparent  py-1 rounded-lg cursor-pointer '}>
+                <button onClick={handleClick} className={'flex flex-row justify-center relative items-center w-full hover:bg-transparent bg-transparent dark:bg-stone-900 py-1 rounded-lg cursor-pointer '}>
                     <p>23.02.2023 - Delft - 18:00</p>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={'absolute right-4 m-1 w-4 h-4 ' + (slider ? 'rotate-180' : 'rotate-0')}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
@@ -118,4 +118,4 @@ const MeetUpFeb23 = () => {
   )
 }
 
-export default MeetUpFeb23
+export default MeetUp23022023
