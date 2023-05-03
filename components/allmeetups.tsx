@@ -8,7 +8,9 @@ interface Meetup {
   }
 
 //   Always add new meetups to the top of the array
+
   export const allmeetups: Meetup[] = [
+    // more meetups here...
     {
         location: 'Rotterdam',
         start: '6:30 PM',
@@ -33,6 +35,6 @@ interface Meetup {
       topic: 'How to get involved in Web3',
       host: 'Web3 Partners'
     },
-    // more meetups here...
+    
   ];
     
