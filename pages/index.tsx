@@ -1,14 +1,13 @@
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
-import ThreeBoxes from '../components/ThreeBoxes'
 import MainInfo from '../components/MainInfo'
 import Footer from '../components/Footer'
 import NextMeetUp from '../components/NextMeetUp'
-import SubHero from '../components/SubHero'
 import Head from 'next/head'	
 import Navbar from '../components/Navbar'
 import PreviousMeetUps from '../components/PreviousMeetUps'
 import addOrganizationData from '../components/StructuredData'
+import EventBrite from '../components/EventBrite'
 
 const IndexPage = () => (
   <>
@@ -41,11 +40,9 @@ const IndexPage = () => (
     <Layout title="Web3 Partners">
       <Navbar/>
       <Hero/>
-      {/* <SubHero/> */}
-      {/* <ThreeBoxes/> */}
       <MainInfo/>
+      <NextMeetUp/>
       <PreviousMeetUps/>
-      <NextMeetUp />
       <Footer/>
     </Layout>
   </>

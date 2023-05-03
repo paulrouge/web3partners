@@ -21,10 +21,10 @@ const Hero = () => {
         <ThreeBoxes/>
         <BlockBg width="25%" height="100%" position_top={0} position_right={0} z_index={3}/>
         <div className='absolute text-xs font-light text-white bottom-10 font-web3 md:text-sm'>
-          <p className='inline-block'>scroll down</p>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="inline-block w-5 h-5 animate-bounce">
+          {/* <p className='inline-block'>scroll down</p> */}
+          {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="inline-block w-5 h-5 animate-bounce">
             <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m0 0l6.75-6.75M12 19.5l-6.75-6.75" />
-          </svg>
+          </svg> */}
         </div>
         <div className='absolute text-xs font-light text-white bottom-2 left-2 font-web3 md:text-sm'>
           <p>Powered by the ICON Foundation</p>

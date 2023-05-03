@@ -48,26 +48,43 @@ const NextMeetUp = () => {
         <p className='w-full font-bold text-center sm:text-xl lg:text-3xl'>Next Meetup</p>
         <div className='flex flex-col items-center justify-center w-full h-auto font-web3'>
             <div className='px-8 py-8 space-y-1 text-xl font-bold text-center md:text-5xl'>
-                <p>Toward the end of March </p>
-                <p>Delft/Rotterdam/the Hague</p>
+                <p>date yet tba</p>
+                <p>The Hague?</p>
                 <p>18:00</p>
             </div>
             <div className='px-2 text-xl'>
-               Location: <a href='/' className='inline-block underline'>TBA</a>
+               Location: TBA
             </div>
             {/* <div className='w-11/12 mt-12 text-center md:w-3/5'>
                 This evening will feature a panel discussion with speakers from the web3 ecosystem. The panel discussion 
                 will circle around 'how one gets involved' in the web3 industry.
             </div> */}
-            <div className='flex flex-col items-center justify-center w-full mt-8 md:flex-row sm:items-start'>
+            <div className='
+            flex flex-col items-center justify-center 
+            w-full mt-8 md:flex-row sm:items-start
+            px-4
+            '>
                 <SpeakerElement
-                    name='Speak at this meetup!'
-                    title=''
-                    image='/images/speaker_none.png'
-                    subtitle=''
-                    topic=''
+                    name='Justin &#8221;Haylo&#8221;'
+                    title='Co-Organiser of Web3 Partners'
+                    image='/images/justin.png'
+                    subtitle='Community Manager'
+                    topic='Justin will be talking about the importance of bold and creative thinking to drive innovation in the Web3 space. He will share his insights on the next steps for Web3 gaming projects and encourage attendees to reflect on how far the industry has come. Justin will also discuss the importance of revisiting existing relationships, removing barriers to entry, and enabling traditional players to benefit from decentralization. You can catch Justins presentation titled &#8221;Breaking out of Web3&#8221; at Web3 Partners.'
                 />
-               
+                <SpeakerElement
+                    name='Paul Rouge'
+                    title='Co-Organiser of Web3 Partners'
+                    image='/images/paul3.png'
+                    subtitle='Developer'
+                    topic='Paul is a co-organizer of Web3 Partners and a self-taught developer with experience in multiple projects in the Web3 space. During the event, he will be giving a presentation with the goal of explaining how wallet-apps like MetaMask use encryption to keep your private key safe. He aims to demystify the "crypto" in cryptocurrencies and help attendees gain a better understanding of this aspect of the industry.'
+                />
+                <SpeakerElement
+                    name='You?'
+                    title='Project Owner or Founder?'
+                    image='/images/placeholder.jpeg'
+                    subtitle='Guest Speaker'
+                    topic='Present your project or pitch your idea. We are looking for speakers to present their projects and ideas. If you are interested in speaking at the next meetup, please fill out the form below.'
+                />
             </div>
             {/* <EventBrite/> */}
             <Iwanttospeak/>
