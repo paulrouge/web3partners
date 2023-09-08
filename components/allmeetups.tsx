@@ -12,6 +12,15 @@ interface Meetup {
 
   export const allmeetups: Meetup[] = [
     // more meetups here...
+      {
+        location: 'Rotterdam',
+        start: '6:30 PM',
+        end: '9:00 PM',
+        date: 'September 22nd',
+        topic: 'Unlocking Web3: Empowering Individuals in the New Economic Frontier',
+        host: 'Web3 Partners X W3B Lab',
+        eventbrite: '/',
+    },
     {
         location: 'Rotterdam',
         start: '6:30 PM',

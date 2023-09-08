@@ -1,6 +1,7 @@
 import React from 'react'
 import MeetUpFeb23 from './MeetupFeb23'
 import MeetUpMarch23 from './MeetupMarch23'
+import MeetUpMay23 from './MeetupMay23'
 
 
 const PreviousMeetUps = () => {
@@ -10,6 +11,7 @@ const PreviousMeetUps = () => {
         <div className='space-y-2'>
             <MeetUpFeb23/>
             <MeetUpMarch23/>
+            <MeetUpMay23/>
         </div>
         
     </div>
